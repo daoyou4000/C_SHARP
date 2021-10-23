@@ -39,21 +39,21 @@ string name = Console.ReaLine();
 - **\r\n** windows 系统文本中换一行
 - 使用 \ 会识别报错，C# 会认为是转移符.
 @ 符号会取消转移符。
-´´´´
+````
 string path = "F:\CAN\LOG\log.text";
 string path = "F:\\CAN\\LOG\\log.text";
 string path = @"F:\\CAN\\LOG\\log.text";
-´´´´
+````
 
 ## 类型转换
 - 隐式类型转换条件: 1, 两种类型兼容，2，目标类型大于源类型。
 - 强制类型转换: (int), (double) 变量前面
 
-´´´´
+````
 int a = 10;
 int b = 3;
 double c = a /b;
-´´´´
+````
 
 在这个运算中，a/b 会先求得结果3， 然后赋值给c, 因此结果是 3.
 
