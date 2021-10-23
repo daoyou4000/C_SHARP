@@ -31,3 +31,15 @@ Console.WriteLine("the first number is {0}, the second number is {1}, the third 
 ````
 string name = Console.ReaLine();
 ````
+##转移符
+- **\n** 换行
+- **\"** 英文半角双引号
+- **\t** tab， 字符排版
+- **\b**  退格键
+- **\r\n** windows 系统文本中换一行
+- 使用 **\** 会识别报错，C# 会认为是转移符，此时使用　**\\**
+´´´´
+string path = "F:\CAN\LOG\log.text";
+string path = "F:\\CAN\\LOG\\log.text";
+string path = @"F:\\CAN\\LOG\\log.text";
+´´´´
