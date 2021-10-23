@@ -20,4 +20,9 @@ In this folder, the process how to develop the GUI by C# will be demonstrated.
 - **char** 最多最少存一个
 ## 命名法则
 - Camel rule: 首单词的首字母小写，其余每个单词首字母大写， 多用于给变量命名: highSchool
-- Pascel rule: 每个单词的首字母大写，多用于给类和方法命名。 Main()
+- Pascal rule: 每个单词的首字母大写，多用于给类和方法命名。 Main()
+- **+**, 在字符串中式连接的意思，否则是相加
+- 占位符
+````
+Console.WriteLine("the first number is {0}, the second number is {1}, the third number is {2},", n1, n2,n3);
+````
