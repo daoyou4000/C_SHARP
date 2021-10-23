@@ -53,6 +53,13 @@ string path = @"F:\\CAN\\LOG\\log.text";
 int a = 10;
 int b = 3;
 double c = a /b;
+Console.WriteLine("{0}",d);
+
+double d  = 10;
+double c = d /b;
+Console.WriteLine("{0:0.00}",d); // 小数点后保留两位
+
+
 ````
 
 在这个运算中，a/b 会先求得结果3， 然后赋值给c, 因此结果是 3.
