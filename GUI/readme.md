@@ -26,3 +26,8 @@ In this folder, the process how to develop the GUI by C# will be demonstrated.
 ````
 Console.WriteLine("the first number is {0}, the second number is {1}, the third number is {2},", n1, n2,n3);
 ````
+## C# 输入
+只能用string 进行接收
+````
+string name = Console.ReaLine();
+````
