@@ -16,8 +16,8 @@ In this folder, the process how to develop the GUI by C# will be demonstrated.
 - **int** 整型 32bit
 - **double** 整形，浮点型， 64bit
 - **decimal** 只能存储 钱， 28-29精确度
-- **string** 字符串
-- **char** 最多最少存一个
+- **string** 字符串 用""
+- **char** 最多最少存一个 用''
 ## 命名法则
 - Camel rule: 首单词的首字母小写，其余每个单词首字母大写， 多用于给变量命名: highSchool
 - Pascal rule: 每个单词的首字母大写，多用于给类和方法命名。 Main()
