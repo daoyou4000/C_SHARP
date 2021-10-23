@@ -11,3 +11,10 @@ In this folder, the process how to develop the GUI by C# will be demonstrated.
 - **Ctrl + J**: 快速弹出只能提示
 - **F1** 转到帮助文档
 - **F5** 开始debug.
+
+## Data type 数据类型
+- **int** 整型 32bit
+- **double** 整形，浮点型， 64bit
+- **decimal** 只能存储 钱， 28-29精确度
+- **string** 字符串
+- **char** 最多最少存一个
