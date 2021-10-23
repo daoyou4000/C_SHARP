@@ -44,3 +44,7 @@ string path = "F:\CAN\LOG\log.text";
 string path = "F:\\CAN\\LOG\\log.text";
 string path = @"F:\\CAN\\LOG\\log.text";
 ´´´´
+
+## 类型转换
+- 隐式类型转换条件: 1, 两种类型兼容，2，目标类型大于源类型。
+- 强制类型转换: (int), (double) 变量前面
