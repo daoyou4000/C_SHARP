@@ -1,6 +1,6 @@
 In this folder, the process how to develop the GUI by C# will be demonstrated. 
 
-## quick shortcut
+## Quick shortcut, VS 快捷键
 - **///**: 添加备注, 选中一个方法，可以添加总结
 - **Ctrl + K + C**: Comment
 - **Ctrl + K + U**: Uncomment
