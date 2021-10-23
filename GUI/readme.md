@@ -37,8 +37,8 @@ string name = Console.ReaLine();
 - **\t** tab， 字符排版
 - **\b**  退格键
 - **\r\n** windows 系统文本中换一行
-- 使用 **\** 会识别报错，C# 会认为是转移符，此时使用　**\\**
-
+- 使用 \ 会识别报错，C# 会认为是转移符.
+@ 符号会取消转移符。
 ´´´´
 string path = "F:\CAN\LOG\log.text";
 string path = "F:\\CAN\\LOG\\log.text";
