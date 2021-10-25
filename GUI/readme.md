@@ -105,3 +105,5 @@ catch
 ````
 bool result = 3 < 5? true: false;
 ````
+## 复杂数据类型
+- 常量，const
