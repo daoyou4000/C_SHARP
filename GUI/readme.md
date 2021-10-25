@@ -80,7 +80,7 @@ catch
 - break: 终止循环
 - continue: 终止本次循环
 
-##类
+## 类
 由以下元素定义:
 - 名称
 - 保存数据成员的数据结构
@@ -88,5 +88,15 @@ catch
 
 通过实例化类型而创建的对象被称为类型的对象或类型的实例。
 
+## 数据类型
+16 种预定义简单类型:
+![image](https://github.com/daoyou4000/C_SHARP/blob/f2ac1cb15145cd7934d01383ca3bd7725d3c17b7/image/datatype.PNG)
 
+6 种用户定义类型
+- 类类型（class)
+- 结构类型 struct
+- 数组 array
+- 枚举 enum
+- 委托 delegate
+- 接口类型 interface
 
