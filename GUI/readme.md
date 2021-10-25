@@ -31,7 +31,7 @@ Console.WriteLine("the first number is {0}, the second number is {1}, the third 
 ````
 string name = Console.ReaLine();
 ````
-##转移符
+##转义符
 - **\n** 换行
 - **\"** 英文半角双引号
 - **\t** tab， 字符排版
@@ -76,3 +76,6 @@ catch
   出现异常后执行的代码
 }
 ````
+## break and continue
+- break: 终止循环
+- continue: 终止本次循环
