@@ -107,3 +107,8 @@ bool result = 3 < 5? true: false;
 ````
 ## 复杂数据类型
 - 常量，const
+- 枚举，enum
+Enum.Pasre(); 转换字符串到枚举类型
+int 到枚举转换
+string 到枚举类型转换
+- 结构 struct
