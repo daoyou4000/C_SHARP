@@ -100,3 +100,8 @@ catch
 - 委托 delegate
 - 接口类型 interface
 
+## 三元表达式
+表达式1 (bool)? 表达式2: 表达式3  
+````
+bool result = 3 < 5? true: false;
+````
