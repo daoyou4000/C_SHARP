@@ -112,3 +112,11 @@ Enum.Pasre(); 转换字符串到枚举类型
 int 到枚举转换
 string 到枚举类型转换
 - 结构 struct
+````
+public struct Person
+{
+  public string _name;
+  public int _age;
+  public Gender _gender; // _gender 下划线表示字段
+}
+````
