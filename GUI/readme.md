@@ -120,3 +120,5 @@ public struct Person
   public Gender _gender; // _gender 下划线表示字段
 }
 ````
+## out 的使用
+在方法中能够返回多个不同的值， 也能返回相同类型的值。
