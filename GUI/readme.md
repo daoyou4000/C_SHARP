@@ -222,3 +222,9 @@ static void Main(string[] args)
     //C2.Get_Set = 30; illeagal operation
 }
 ````
+## 构造函数
+每创建一个新的实例时执行
+- 和类同名的方法
+- 不能有返回值
+- 可以单参数
+- 可以被重载
