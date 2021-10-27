@@ -175,3 +175,26 @@ static void Main(string[] args)
 
 }
 ````
+属性可以定义只读和只写类型。
+- 自动实现属性
+编译器会创建隐形的后备字段。
+````
+class UseProperty1
+{
+    public int MyValue
+    {
+        set;    get;
+    }
+
+}
+
+static void Main(string[] args)
+{
+
+    UseProperty1 C1 = new UseProperty1();
+    Console.WriteLine("the automatic property is {0}", C1.MyValue);
+    C1.MyValue = 20;
+    Console.WriteLine("the automatic property is {0}", C1.MyValue);
+
+}
+````
