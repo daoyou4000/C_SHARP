@@ -143,3 +143,35 @@ static void Main(string[] args)
 }
 ````
  访问类中的静态变量，需要用到类本身去调用，不能用其实例。
+ 
+## 常量
+常量对每个实例都是可见的，常量没有自己的存储位置，而是编译时被编译器替代。 类似于C和C++中的define值。
+## 属性
+属性是代表类的实例或类中一个数据项的成员。
+属性和字段不同的是他是一个函数成员
+- 它不为数据存储分配内存
+- 它执行代码
+属性是指定的一组两个匹配的，成为访问器的方法。
+- set 访问器位属性赋值
+- get 访问器从属性获取值
+````
+static void Main(string[] args)
+{
+    Console.WriteLine("Hello World!");
+    UseProperty Exampl1 = new UseProperty();
+    Console.WriteLine("The data get by property is {0}", Exampl1.MyValue);
+    Exampl1.MyValue = 5;
+    Console.WriteLine("The data get by property is {0}", Exampl1.MyValue);
+
+}
+
+static void Main(string[] args)
+{
+    Console.WriteLine("Hello World!");
+    UseProperty Exampl1 = new UseProperty();
+    Console.WriteLine("The data get by property is {0}", Exampl1.MyValue);
+    Exampl1.MyValue = 5;
+    Console.WriteLine("The data get by property is {0}", Exampl1.MyValue);
+
+}
+````
