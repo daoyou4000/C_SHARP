@@ -122,3 +122,24 @@ public struct Person
 ````
 ## out 的使用
 在方法中能够返回多个不同的值， 也能返回相同类型的值。
+
+##  静态字段
+````
+class DStatic
+{
+  int Mem1;
+  static int Mem2 = 20;  // static variant
+}
+
+static void Main(string[] args)
+{
+    Console.WriteLine("Hello World!");
+    DStatic d1 = new DStatic();
+    DStatic d2 = new DStatic();
+    d1.Mem1 = 5;
+    Console.WriteLine("The static number is {0}", DStatic.Mem2);
+    DStatic.Mem2 = 10;  // need use the class itself to access the static 
+    Console.WriteLine("The static number is {0}", DStatic.Mem2);
+}
+````
+ 访问类中的静态变量，需要用到类本身去调用，不能用其实例。
