@@ -200,3 +200,25 @@ static void Main(string[] args)
 ````
 - 静态属性
 不能访问类的实例成员， 不管类是否有实例他们都是存在的， 从类的外部访问是必须使用类名引用不能使用实例名。
+````
+class UseStaticProperty
+{
+    public static int Get_Set { set; get; }
+    public void Display()
+    {
+        Console.WriteLine("my value is {0}", Get_Set); // internal access
+    }
+
+}
+
+static void Main(string[] args)
+{
+    Console.WriteLine("Access from outside {0}", UseStaticProperty.Get_Set);
+    UseStaticProperty C2 = new UseStaticProperty();
+    C2.Display();
+    UseStaticProperty.Get_Set = 30;
+    C2.Display();
+    Console.WriteLine("Access from outside {0}", UseStaticProperty.Get_Set);
+    //C2.Get_Set = 30; illeagal operation
+}
+````
