@@ -87,6 +87,13 @@ catch
 - 一些行为及约束条件
 
 通过实例化类型而创建的对象被称为类型的对象或类型的实例。
+### 类中访问修饰符
+public 成员可
+- private
+- protected
+- public
+- internal
+- protected internal
 
 ## 数据类型
 16 种预定义简单类型:
