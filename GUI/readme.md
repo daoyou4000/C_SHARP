@@ -258,3 +258,5 @@ Person p = s;
  string str = string.Join("|", new string[]("1","2","3"));
 ````
 - 如果父类中装的是子类对象，那么可以将这个父类强制转换为子类对象。
+-  as 和 is 可以用与类的转换
+-  ArrayList 是一个集合，可以添加任意对象， 链表里面可以放所有的 object value；
