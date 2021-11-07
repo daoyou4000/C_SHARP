@@ -260,3 +260,11 @@ Person p = s;
 - 如果父类中装的是子类对象，那么可以将这个父类强制转换为子类对象。
 -  as 和 is 可以用与类的转换
 -  ArrayList 是一个集合，可以添加任意对象， 链表里面可以放所有的 object value；
+- var  在声明变量时必须赋值以便编译器对类型进行推断。如果不进行赋值则无法进行声明。
+
+## WVVM
+Model--View--ViewModel
+Model 是现实世界中实物的抽象，比如教师，学生都有姓名，性别，年龄
+View  是界面，是与用户进行交互的控件
+View-Model 是对view进行抽象
+Model 在此不进行讨论，View 和 View-Model 进行数据和命令交互时需要用到 binding 
