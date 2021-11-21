@@ -27,7 +27,7 @@ class NotifyObject : INotifyPropertyChanged
 - Execute 方法进行执行
 ````
 在实现中会先判断是否可以执行，如果返回false 则不会执行。
-
+其中还含有两个委托，Action 和 Func， 使用时会将按键对应的方法委托给Action或者Action进行执行。
 class DelegateCommand : ICommand
     {
         public event EventHandler CanExecuteChanged;
@@ -63,3 +63,10 @@ class DelegateCommand : ICommand
         public Func<object, bool> CanExecuteFunc { get; set; }
     }
 ````
+### ViewModel
+ViewModel是对Veiw进行抽象所得， 对界面的一个描述。
+在此例程中，数据和命令绑定是在ViewModel中进行绑定的。
+在ViewModel 中会声明对应的DelegateCommand作为属性，将其与前端绑定，并且也会将对应的后台逻辑委托Action或者Func进行触发。
+后台运行完成后会进行触发其他属性绑定对界面更新。
+
+
